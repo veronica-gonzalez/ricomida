@@ -1,0 +1,338 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.8rem;
+    }
+}
+
+
+/* Varios */
+
+hr {
+    border-top: 2px solid #373A3C;
+}
+
+ol,
+ul {
+    padding-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Navbar */
+
+.nav-bar {
+    width: 100%;
+}
+
+.nav_titulo {
+    font-family: 'Lobster', cursive;
+    font-size: 4.1rem;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+
+/* Header */
+
+header {
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+}
+
+.principal {
+    display: inline-block;
+    border-top: 1px solid black;
+    padding-top: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.principal img {
+    width: 27rem;
+}
+
+@media (min-width: 768px) {
+    .principal {
+        border-top: 0px;
+    }
+    .principal img {
+        max-height: 70vh;
+        width: 90%;
+    }
+}
+
+@media (min-width: 960px) {
+    .principal img {
+        width: 100%;
+    }
+}
+
+.titulo {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+@media (min-width: 768px) {
+    .titulo {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 960px) {
+    .titulo {
+        width: 70%;
+        margin-top: 4rem;
+    }
+}
+
+.subtitulo {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    display: inline-block;
+    border-top: 1px solid black;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .subtitulo {
+        font-size: 2.25rem;
+    }
+}
+
+.btn {
+    border-color: #DDDDDD;
+    font-size: 1.4rem;
+    padding: 1.4rem 1.125rem;
+}
+
+@media (min-width: 960px) {
+    .btn {
+        font-size: 1.8rem;
+        padding: 1.18rem 1.3rem;
+    }
+}
+
+
+/* Carrusel */
+
+.imagen {
+    width: 23%;
+}
+
+
+/** Recetas **/
+
+.recetas {
+    margin-top: 3.37rem;
+}
+
+@media (min-width: 768px) {
+    .recetas {
+        display: inline-block;
+        border-top: 1px solid black;
+        padding-top: 4rem;
+    }
+}
+
+
+/* Receta */
+
+.receta h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.receta ul {
+    margin-bottom: 5rem;
+}
+
+.receta ol {
+    list-style-position: inside;
+}
+
+
+/* Relacionadas */
+
+.titulo-relacionadas {
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    border-top: 2px solid #373A3C;
+    display: inline-block;
+    padding-top: 2.5rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .titulo-relacionadas {
+        font-size: 4.5rem;
+    }
+}
+
+.relacionadas {
+    justify-content: space-between;
+}
+
+.relacionadas article {
+    flex-basis: calc(33.3% - 10px);
+}
+
+.receta-relacionada {
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .receta-relacionada {
+        margin-bottom: 0;
+    }
+}
+
+.receta-relacionada img {
+    width: 100%;
+}
+
+.card-body {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .card-body {
+        height: 25rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-body {
+        height: 28rem;
+    }
+}
+
+@media (min-width: 1140px) {
+    .card-body {
+        height: auto;
+    }
+}
+
+.card-body h4 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    width: 70%;
+    margin-top: 2.3rem;
+    margin-bottom: 3.3rem;
+}
+
+@media (min-width: 768px) {
+    .card-body h4 {
+        font-size: 2.5rem;
+        width: 90%;
+        height: 6.75rem;
+        margin-bottom: 0;
+    }
+}
+
+
+/** Sección final **/
+
+
+/* Suscripción */
+
+.suscripcion {
+    background-color: #DC3545;
+    height: 50rem;
+    display: flex;
+    margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+    .suscripcion {
+        margin-top: 5rem;
+    }
+}
+
+.suscripcion-hijo {
+    margin: auto;
+    width: 90%;
+}
+
+.suscribete {
+    font-size: 3.38rem;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .suscribete {
+        font-size: 4.5rem;
+    }
+}
+
+.suscripcion-hijo p {
+    margin-top: 2.4rem;
+    font-size: 2.25rem;
+}
+
+@media (min-width: 768px) {
+    .suscripcion-hijo p {
+        font-size: 3.37rem;
+        margin-top: 0;
+    }
+}
+
+.ricomida {
+    font-family: 'Lobster', cursive;
+}
+
+.suscripcion-hijo button {
+    margin-top: 3rem;
+    padding: 1.125rem 9.11rem;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+    .suscripcion-hijo button {
+        margin-top: 4rem;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #373A3C;
+    font-family: 'Lobster', cursive;
+    font-size: 4.16rem;
+    color: #FFFFFF;
+}
+
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.style {
+    font-size: 1.2rem;
+    padding: 0.6rem 0.5rem 0 0.5rem;
+}
